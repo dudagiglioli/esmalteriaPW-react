@@ -1,3 +1,6 @@
+@import "../../../styles/variaveis";
+@import "../../../styles/breackpoints";
+
 .inicio {
     padding: 20px $padding-horizontal;
     @media (max-width: $desktop_xsm) {
@@ -61,3 +64,9 @@
       width: 100%;
     }
   }
+
+
+
+
+
+  
