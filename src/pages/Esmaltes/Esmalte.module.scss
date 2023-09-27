@@ -1,6 +1,10 @@
 @import "../../styles/variaveis";
 @import "../../styles/breackpoints";
 
+.div{
+  align-items: center;
+}
+
 .inicio {
     padding: 20px $padding-horizontal;
     @media (max-width: $desktop_xsm) {
@@ -12,11 +16,11 @@
     @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
       padding: 20px $padding-horizontal-md;
     }
+    background-color: rgb(209, 155, 243);
   }
 
   .header {
     align-items: center;
-    /*background-image: url("/assets/esmalte/header.png");*/
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -32,7 +36,7 @@
       padding: 0px $padding-horizontal-md;
     }
     &__text {
-      color: white;
+  color: #D490FF;
       font-size: 5rem;
       min-width: 400px;
       width: 40%;

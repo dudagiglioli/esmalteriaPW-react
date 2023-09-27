@@ -11,14 +11,15 @@ export default function Esmalte() {
 
  return(
 <main>
-
-<nav className="styles.inicio">
-    <img src={Logo} alt="Logo Esmalteria"/>
-</nav>
+    <div className="div">
+    <nav className={styles.inicio}>
+        <img src={Logo} alt="Logo Esmalteria"/>
+    </nav>
+    </div>
 
 <header className={styles.header}>
 <div className={styles.header__text}>
-    "Esmalteria!"
+    Esmalteria!
 </div>
            </header>
 
