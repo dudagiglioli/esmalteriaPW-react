@@ -23,6 +23,9 @@ export default function Esmalte() {
 </div>
            </header>
 
+           <h2  className={styles.frase}>As unhas são uma forma de 
+           se expressar e de mostrar sua criatividade</h2>
+
            <section className={styles.esmalte}>
                <h3 className={styles.esmalte__titulo}>Opções</h3>
                

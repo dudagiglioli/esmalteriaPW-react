@@ -17,8 +17,9 @@
     height: 40px;
     justify-content: center;
     width: 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     &--ativo {
-      background-color: $blue;
+      background-color: $black;
       color: white;
     }
     &:hover {
